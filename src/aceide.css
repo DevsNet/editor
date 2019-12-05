@@ -724,3 +724,10 @@ ul.jqueryFileTree a {
 #aceide_file_browser .aceide-context-menu li:hover {
 	background-color: #DFDFDF;
 }
+
+
+/* custom css */
+#major-publishing-actions {
+    overflow-y: scroll;
+    height: 75vh;
+}

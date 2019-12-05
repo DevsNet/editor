@@ -692,7 +692,7 @@ class IDE
 		?>
 		<div id="poststuff" class="metabox-holder has-right-sidebar">
 			<div id="side-info-column" class="inner-sidebar">
-				<img src="<?php echo plugins_url( 'images/logo.png', __FILE__ ); ?>" id="aceidelogo" />
+				<img style="display: none" src="<?php echo plugins_url( 'images/logo.png', __FILE__ ); ?>" id="aceidelogo" />
 				<div id="aceide_info">
 					<div id="aceide_info_content"></div>
 				</div>
@@ -732,7 +732,7 @@ class IDE
 
 			<div id="post-body">
 				<div id="aceide_container">
-					<div id="aceide_toolbar" class="quicktags-toolbar">
+					<div style="display: none" id="aceide_toolbar" class="quicktags-toolbar">
 						<div id="aceide_toolbar_tabs"> </div>
 						<div id="dialog_window_minimized_container"></div>
 					</div>
